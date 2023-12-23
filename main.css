@@ -3,6 +3,11 @@ body {
     background-color: #ff8181;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
 }
 
 header {
@@ -12,8 +17,16 @@ header {
 h1 {
     color: #333;
     margin: 0;
-    padding: 3em 0 5em;;
+    padding: 0em 0 10em;
     font-size: 2.5em;
     font-weight: bold;
 }
 
+.gif-container {
+    margin-top: 20px; 
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+}
