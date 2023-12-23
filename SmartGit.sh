@@ -1,4 +1,4 @@
-cd Project-Flamely/
+cd DoYouLoveMe/
 git add --all
 echo "------------In Progress ----------"
 git commit -m"Repo Updated"
