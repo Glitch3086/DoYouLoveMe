@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    height: 100vh;
 }
 
 header {
@@ -17,16 +17,25 @@ header {
 h1 {
     color: #333;
     margin: 0;
-    padding: 0em 0 10em;
+    padding: 1em 0 1em; /* Adjusted padding-top to move the text up */
     font-size: 2.5em;
     font-weight: bold;
 }
 
+h2 {
+    color: #333;
+    margin: 0;
+    padding: 0.5em 0; /* Adjusted padding-top to move the text up */
+    font-size: 1.5em;
+}
+
 .gif-container {
-    margin-top: 20px; 
+    margin-top: 20px;
 }
 
 .gif-container img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
+    margin: 0 auto;
+    display: block;
 }
