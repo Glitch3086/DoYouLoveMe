@@ -12,6 +12,6 @@ function moveButton() {
 }
 
 function goToAnotherPage() {
-    window.location.href = "another-page.html";
+    window.location.href = "success.html";
 }
 
