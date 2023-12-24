@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Do You Love Me?</title>
     <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
 </head>
 <body>
     <header>
@@ -12,11 +13,11 @@
     </header>
     
     <div class="button-container">
-        <a href="#" class="yes-button">Yes</a>
+        <a href="#" class="yes-button" onclick="goToAnotherPage()">Yes</a>
         <div class="gif-container">
             <img src="images/Love.gif" alt="double charge">
         </div>
-        <button class="no-button">No</button>
+        <button class="no-button" id="noButton" onmouseover="moveButton()">No</button>
     </div>
 </body>
 </html>
